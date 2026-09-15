@@ -1,0 +1,22 @@
+# Java compiled files
+*.class
+bin/
+out/
+target/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary/test files
+test-data/
+
+# Runtime generated submission data
+data/submissions/
+
+# Logs
+*.log
