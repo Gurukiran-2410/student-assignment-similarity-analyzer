@@ -1,0 +1,55 @@
+                START
+                  ↓
+        Student uploads TXT/PDF
+                  ↓
+          Extract PDF text
+                  ↓
+          Text preprocessing
+                  ↓
+        Check previous submissions
+                  ↓
+       ┌─────────────────────────┐
+       │ Previous Documents      │
+       │                         │
+       │ Assignment 1            │
+       │ Assignment 2            │
+       │ Assignment 3            │
+       │ ...                     │
+       │ Assignment N            │
+       └────────────┬────────────┘
+                    ↓
+        Compare new document
+        with ALL previous docs
+                    ↓
+       ┌─────────────────────────┐
+       │      Module 2           │
+       │ Naïve / KMP             │
+       │ Z-Function              │
+       │ Rabin-Karp              │
+       │ Aho-Corasick            │
+       │ Suffix Array + LCP      │
+       └────────────┬────────────┘
+                    ↓
+       ┌─────────────────────────┐
+       │      Module 3           │
+       │ Levenshtein             │
+       │ Wagner-Fischer          │
+       │ Damerau-Levenshtein     │
+       └────────────┬────────────┘
+                    ↓
+          TF-IDF + Cosine
+             Similarity
+                    ↓
+       ┌─────────────────────────┐
+       │ OVERALL SIMILARITY      │
+       │                         │
+       │       16.73%            │
+       └────────────┬────────────┘
+                    ↓
+             Threshold = 10%
+                    ↓
+             ┌──────┴──────┐
+             ↓             ↓
+          ≤ 10%           > 10%
+             ↓             ↓
+         ORIGINAL       COPIED
